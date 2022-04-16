@@ -1,0 +1,2 @@
+# FormatEx
+Return values:      Success:    - String: Formatted string.                     Failure:    - 0 and sets @error and @extended.                                   @extended values:                                   1:    Invalid argument (not a String). Remarks:            Do not mix placeholders with non-placeholders e.g.:                     _StringFormatEx('%s %1$s', 'world', 'hello')                     It will NOT work.
